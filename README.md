@@ -1,38 +1,54 @@
-# Interview Simulator
+# Java Interview Simulator
 
-- ACADEMIA DE CODIGO, Class 49_FELINUX -
-** INTERVIEW SIMULATOR Table of Contents **
--------------------------------------------
+A small **Java console application** created during my bootcamp journey to help coding students practice and prepare for technical interviews.
 
-* Introduction
-* Program Features
-* Runnability
-* Credits
+The simulator presents a series of questions, evaluates the answers, and displays a final result based on the user's performance.
 
+---
 
+## Features
 
-Introduction
-------------
-Interview Simulator is a text-based program that aims to help code cadets practice and get ready for their coding interview.
+- Text-based interview simulation
+- Series of technical questions
+- Answer validation with immediate feedback
+- Final result displayed as **Approved** or **Not Approved**
+- Correct answer ratio
+- Timer to measure completion time
+- Option to restart or exit the simulation
 
+---
 
-Program Features
-----------------
-Interview Simulator is based on a series of questions where a "CORRECT" or "NOT CORRECT" will be displayed accordingly,
-and, at the end of the interview, an "APPROVED" or "NOT APPROVED" and a question correctly answered ratio will be displayed according to your results, as well as a
-timer to let the codeCadet know how much time it took him/her to get through the interview.
-A menu with the option to repeat the interview or to quit the program is also shown at the end of the interview.
+## Tech Stack
 
+- Java
 
-Runnability
------------
-This program is best run in Ubuntu, Linux and MACOS terminal due to compatibility advantages.
+---
 
+## Run the Project
 
-Credits
--------
-Interview Simulator was created by four Code Cadets from the class 49_Felinux.
+### Option 1 — Run the JAR file
+
+```bash
+java -jar InterviewSimulator.jar
+```
+
+### Option 2 — Run from source
+
+Compile and run the Java project using your preferred IDE or Java CLI tools.
+
+---
+
+This project was built during my bootcamp experience as part of a team project focused on practicing:
+ - Java fundamentals
+ - Console application development
+ - Problem solving
+ - Basic program flow and user interaction
+
+Created together with:
+
 - Adriana Alves
 - Joao Pedro
 - Neide Margarido
 - Tiago Patrício
+
+This repository is kept public as part of my early development learning history and reflects one of my first collaborative Java projects.
